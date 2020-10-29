@@ -1,0 +1,1 @@
+cmd_/home/barnrang/Documents/OS/hw2/kmal.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/barnrang/Documents/OS/hw2/kmal.ko /home/barnrang/Documents/OS/hw2/kmal.o /home/barnrang/Documents/OS/hw2/kmal.mod.o;  true
