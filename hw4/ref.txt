@@ -1,0 +1,3 @@
+https://www.linuxquestions.org/questions/programming-9/how-to-trigger-an-interrupt-handler-corresponding-with-the-specified-irq-4175536848/
+
+
