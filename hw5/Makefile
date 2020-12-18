@@ -1,0 +1,8 @@
+obj-m += atom_int.o spin_lock.o read_write_spin.o
+
+all:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+modules_install:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules_install
+clean:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
